@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Unit 1 A  Feb 1 2024</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-exterior-north">
+        <li class="text">Exterior North</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-exterior-north">
+        <li class="text">Exterior North</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-exterior-east">
+        <li class="text">Exterior East</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-exterior-east">
+        <li class="text">Exterior East</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-exterior-south-east">
+        <li class="text">Exterior South East</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-exterior-south-east">
+        <li class="text">Exterior South East</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-exterior-south">
+        <li class="text">Exterior South</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-exterior-south">
+        <li class="text">Exterior South</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-exterior-south-west">
+        <li class="text">Exterior South West</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-exterior-west">
+        <li class="text">Exterior West</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-exterior-north-west">
+        <li class="text">Exterior North West</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-exterior-north">
+        <li class="text">Exterior North</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-ceiling">
+        <li class="text">Ceiling</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-ceiling">
+        <li class="text">Ceiling</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-ceiling">
+        <li class="text">Ceiling</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-ceiling">
+        <li class="text">Ceiling</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-ceiling">
+        <li class="text">Ceiling</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-ceiling">
+        <li class="text">Ceiling</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-ceiling">
+        <li class="text">Ceiling</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-ceiling">
+        <li class="text">Ceiling</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-ceiling">
+        <li class="text">Ceiling</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-ceiling">
+        <li class="text">Ceiling</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-2nd-level">
+        <li class="text">2nd Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-stairs">
+        <li class="text">Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="56-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="57-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="58-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="59-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="60-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="61-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="62-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="63-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="64-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="65-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="66-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="67-1st-level">
+        <li class="text">1st Level</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
